@@ -5,10 +5,16 @@
     "scripts": {
         "test": "mocha -R spec test/**/*.js test/*.js"
     },
-    "author": {
-        "name": "Ran Mizrahi",
-        "email": "ran@cocycles.com"
-    },
+    "contributors": [
+        {
+            "name": "Ran Mizrahi",
+            "email": "ran@cocycles.com"
+        },
+        {
+            "name": "Eyal Segal",
+            "email": "eyal@cocycles.com"
+        }
+    ],
     "engines": {
         "node": "~0.10.x"
     },
