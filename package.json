@@ -1,23 +1,31 @@
 {
-    "name": "expressty",
-    "description": "Express middleware kit for writing easy RESTful services with express",
-    "version": "0.1.0",
-    "scripts": {
-        "test": "mocha -R spec test/**/*.js test/*.js"
+  "name": "expressty",
+  "description": "Express middleware kit for writing easy RESTful services with express",
+  "version": "0.1.1",
+  "scripts": {
+    "test": "mocha -R spec test/**/*.js test/*.js"
+  },
+  "contributors": [
+    {
+      "name": "Ran Mizrahi",
+      "email": "ran@cocycles.com"
     },
-    "contributors": [
-        {
-            "name": "Ran Mizrahi",
-            "email": "ran@cocycles.com"
-        },
-        {
-            "name": "Eyal Segal",
-            "email": "eyal@cocycles.com"
-        }
-    ],
-    "engines": {
-        "node": "~0.10.x"
-    },
-    "dependencies" :{},
-    "keywords" : ["expressty", "middleware", "REST", "express", "request", "response", "httpCode"]
+    {
+      "name": "Eyal Segal",
+      "email": "eyal@cocycles.com"
+    }
+  ],
+  "engines": {
+    "node": "~0.10.x"
+  },
+  "dependencies": {},
+  "keywords": [
+    "expressty",
+    "middleware",
+    "REST",
+    "express",
+    "request",
+    "response",
+    "httpCode"
+  ]
 }
