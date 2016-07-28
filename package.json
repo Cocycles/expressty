@@ -12,5 +12,6 @@
     "engines": {
         "node": "~0.10.x"
     },
-    "dependencies" :{}
+    "dependencies" :{},
+    "keywords" : ["expressty", "middleware", "REST", "express", "request", "response", "httpCode"]
 }
