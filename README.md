@@ -8,12 +8,7 @@ const expressty = require('expressty');
 
 app.use(expressty);
 
-function anakinCtrl(req, res) {
-    fightObiWan()
-      .then(res.ok, res.error);
-}
-
-app.get('/anakin', anakinCtrl)
+app.get('/anakin', (req, res) => fightObiWan().then(res.ok).fail(res.error));
 
 /**
  * Respond if nothing was found
